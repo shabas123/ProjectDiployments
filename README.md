@@ -1,1 +1,581 @@
-# ProjectDiployments
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Skin careMen</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+    crossorigin="anonymous"></script>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+    integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik+Wet+Paint&display=swap"
+    rel="stylesheet">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins:400,500,600,700&display=swap">
+  <style>
+
+  </style>
+
+</head>
+
+<body>
+  <!DOCTYPE html>
+  <html lang="en">
+
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BeautyMan</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Hand:wght@400..700&family=Open+Sans:ital,wght@0,300..800;1,300..800&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Rubik+Wet+Paint&display=swap"
+      rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <style>
+      .navbar {
+        background-color: #333;
+        padding: 10px 20px;
+        color: white;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      .navbar-container {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+      }
+
+      .nav-links {
+        list-style: none;
+        display: flex;
+        gap: 20px;
+      }
+
+
+      .cart,
+      .wishlist,
+      .notification {
+        position: initial;
+      }
+
+      .cart-icon,
+      .wishlist-icon,
+      .notification-icon {
+        font-size: 24px;
+        color: white;
+        text-decoration: none;
+
+      }
+
+      .logo {
+        font-weight: 1000;
+        font-size: large;
+      }
+
+      .back {
+        background-color: dodgerblue;
+      }
+
+      .small {
+        background-color: black;
+      }
+
+      .navbar a:hover {
+        background: #d30e0e;
+        color: black;
+      }
+
+      .hyphenate {
+        -webkit-hyphens: auto;
+        hyphens: auto;
+      }
+
+      .prose {
+        background-color: bisque;
+      }
+
+      .offer {
+        font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        font-weight: 600;
+      }
+
+      .my-5 {
+        margin-top: 10rem !important;
+        margin-bottom: 10rem !important;
+      }
+
+      @media (min-width: 1200px) {
+
+        .container,
+        .container-lg,
+        .container-md,
+        .container-sm,
+        .container-xl {
+          max-width: 1140px;
+        }
+      }
+
+      @media (min-width: 992px) {
+
+        .container,
+        .container-lg,
+        .container-md,
+        .container-sm {
+          max-width: 960px;
+        }
+      }
+
+      .img00 {
+        background-color: black;
+      }
+    </style>
+  </head>
+
+  <body>
+    <nav class="navbar fixed-top ">
+      <img src="c:\Users\shazz\Downloads\Screenshot_2024-12-04_144108-removebg-preview.png" alt="" width="70">
+      <div class="navbar-container ms-auto">
+        <form class="navbar-form navbar-right me-4" action="/action_page.php">
+          <div class="form-group">
+            <input type="text" class="form-control" placeholder="Search beautyMaN">
+            <i class="glyphicon glyphicon-search"></i>
+          </div>
+
+      </div>
+      <div class="Singup me-4">
+        <a href="file:///C:/Users/shazz/Desktop/mernoct/html/bootstrap/singform.html" class="Singup ">
+          <i class="fa-solid fa-user fa-xl" style="color: #eff1f6;"></i>
+        </a>
+      </div>
+
+
+
+      </div>
+      </li>
+      <div class="cart">
+        <a href="file:///C:/Users/shazz/Desktop/mernoct/html/bootstrap/cart.html#" class="cart-icon me-4">
+          <i class="fa fa-shopping-cart"></i>
+        </a>
+      </div>
+
+      <div>
+
+      </div class="notification me-4">
+      <a href="#" class="notification-icon">
+        <i class="fa fa-bell"></i>
+      </a>
+      </div>
+      </li>
+      </ul>
+      </div>
+    </nav>
+    <div class="img-fluid mt-3">
+      <img
+        src="https://images-static.nykaa.com/uploads/90a3be5f-f84d-4d7c-876a-cc96528c8db4.jpg?tr=cm-pad_resize,w-1800"
+        alt="" width="100%" height="250">
+    </div>
+
+
+    <div id="collectionCarousel" class="carousel slide" data-bs-ride="carousel">
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <a href="file:///C:/Users/shazz/Desktop/mernoct/html/bootstrap/product-perfume.html"><img
+              src="https://images-static.nykaa.com/uploads/dc9cadf8-84f3-4e4a-8ed0-e30910600986.jpg?tr=cm-pad_resize,w-1800"
+              class="d-block w-100" alt="..." width="100%" height="250"></a>
+          <div class="carousel-caption d-none d-md-block">
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a href="file:///C:/Users/shazz/Desktop/mernoct/html/bootstrap/product-perfume.html"><img
+              src="https://images-static.nykaa.com/uploads/b51dd8a7-19cb-4828-aa3d-287c0a1c9a5a.jpg?tr=cm-pad_resize,w-1800"
+              class="d-block w-100" alt="..." width="100%" height="250"></a>
+          <div class="carousel-caption d-none d-md-block">
+
+          </div>
+        </div>
+        <div class="carousel-item">
+          <a href="file:///C:/Users/shazz/Desktop/mernoct/html/bootstrap/product-perfume.html"> <img
+              src="https://images-static.nykaa.com/uploads/23d4834c-c1b4-4013-bec8-03fe797cc04c.jpg?tr=cm-pad_resize,w-1800"
+              class="d-block w-100" alt="..." width="100%" height="250"></a>
+          <div class="carousel-caption d-none d-md-block">
+
+          </div>
+        </div>
+
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#collectionCarousel" data-bs-slide="prev"
+      fdprocessedid="zzg9wx">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Previous</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#collectionCarousel" data-bs-slide="next"
+      fdprocessedid="gkpwlm">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Next</span>
+    </button>
+    </div>
+
+    <img src="https://rukminim2.flixcart.com/fk-p-flap/1600/140/image/a19d56e1234fed98.jpg?q=20" alt=" " width="100%"
+      height="100">
+    <div>
+      <div class="back">
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-4">
+              <div class="card" style="width: 100%;">
+                <a href="file:///C:/Users/shazz/Desktop/mernoct/html/bootstrap/product.html"><img
+                    src="https://encrypted-tbn1.gstatic.com/shopping?q=tbn:ANd9GcQ8FLHb7t54LcHGS0fQdEI2rI2hVnGj7PrccDBKiGZ6jm68sZ4rmKvJRZv0aHi2vjm4nwvntHe4zQP5C2yUNqWqrhqthDfZiheAJMfUYa1wFcFtMfQUNDNU6A"
+                    class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <p class="card-text">The Man Company Skin Brightening Cream make k</p>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-4">
+              <div class="card shadow " style="width: 100%;">
+                <a href="file:///C:/Users/shazz/Desktop/mernoct/html/bootstrap/product.html"><img
+                    src="https://scontent.fccj6-2.fna.fbcdn.net/v/t39.30808-6/274177746_7788474504512122_992055159158684974_n.jpg?_nc_cat=106&ccb=1-7&_nc_sid=0b6b33&_nc_ohc=SEhAYrmlYiIQ7kNvgHa8W-U&_nc_zt=23&_nc_ht=scontent.fccj6-2.fna&_nc_gid=APAklW2mf5QOgZvABI-3Hb2&oh=00_AYAFJyofIBjaXcZ-8nkmtKiR9kaYdln2ALI0FCDQXqIx8g&oe=6754CD8D"
+                    class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <p class="card-text">Winter skin is a thing, guys. If yours is feeling</p>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-4">
+              <div class="card" style="width: 100%;">
+                <a href="file:///C:/Users/shazz/Desktop/mernoct/html/bootstrap/product.html"><img
+                    src="https://images-cdn.ubuy.co.in/6350248156e88c644a52d166-winter-lotion-men-protect-amp-care.jpg"
+                    class="card-img-top" alt=""></a>
+                <div class="card-body">
+                  <p class="card-text">Winter Lotion MEN Protect &amp; Care Face Lotion</p>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-4 mt-3">
+              <div class="card" style="width: 100%;">
+                <a href="file:///C:/Users/shazz/Desktop/mernoct/html/bootstrap/product.html"><img
+                    src="https://m.media-amazon.com/images/S/al-na-9d5791cf-3faf/f7d81275-58c3-4b96-81ce-582daa7b6c59._SL480_.png"
+                    class="card-img-top" alt=""></a>
+                <div class="card-body">
+                  <p class="card-text">Every Man Jack Daily Hydration Face Lotion</p>
+                </div>
+              </div>
+
+            </div>
+            <div class="col-4  mt-3">
+              <div class="card" style="width: 100%;">
+                <a href="file:///C:/Users/shazz/Desktop/mernoct/html/bootstrap/product.html"><img
+                    src="https://images-cdn.ubuy.co.in/6606786036a83d0d621c42ab-jvr-peel-off-face-mask-blackhead.jpg"
+                    class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <p class="card-text">Peel Off Face Mask, Blackhead Remover
+                  </p>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="col-4  mt-3">
+              <div class="card" style="width: 100%;">
+                <a href="file:///C:/Users/shazz/Desktop/mernoct/html/bootstrap/product.html"> <img
+                    src="https://m.media-amazon.com/images/I/613P0q5WvHL.jpg" class="card-img-top" alt="..."></a>
+                <div class="card-body">
+                  <p class="card-text">Some quick example text to build on the card</p>
+                </div>
+              </div>
+
+            </div>
+
+
+
+          </div>
+        </div>
+      </div>
+      <div class="img00">
+        <img src="https://images-static.nykaa.com/uploads/3762c8b7-c7b4-4414-a56c-7d0a971bdea3.jpg?tr=cm-pad_resize,"
+          alt="" width="100%">
+        <div class="container-fluid">
+          <h3 class="offer justify-items-center text-center text-light mb-4 mt-3">Top Rated By Customers</h3>
+
+          <div id="collectionCarousel" class="carousel slide" data-bs-ride="carousel">
+            <div class="carousel-inner">
+              <div class="carousel-item active">
+                <div class="row">
+                  <div class="col-12 col-md-6 col-lg-3">
+                    <div class="card text-center" id="thirdcard">
+
+                      <a href="file:///C:/Users/shazz/Desktop/mernoct/html/bootstrap/product.html"><img
+                          src="https://ssbimages.ssbeauty.in/pub/media/catalog/product/images/205698055/205698055_base.jpg"
+                          alt="" width="100%" height="190">
+                        <div class="card-body">
+                      </a>
+                      <p class="card-text text-center">Hair Wax Cream</p>
+                      <h5 class="card-title">specially formulated to be applied on facial hair. </h5>
+
+                      <div class="price mb-3">
+                        <span class="text-dark">₹99</span>
+                      </div>
+                      <a href="file:///C:/Users/shazz/Desktop/mernoct/html/bootstrap/product.html"
+                        class="btn btn-warning me-3">Buy Now</a>
+                      <a href="./cart.html" class="btn btn-primary">Add to Cart</a>
+
+
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                  <div class="card text-center" id="thirdcard">
+                    <img
+                      src="https://www.themancompany.com/cdn/shop/files/2_9bc8f018-b400-4483-bea4-067094fde795_765x.jpg?v=1722873724"
+                      alt="" width="100%" height="200">
+                    <div class="card-body">
+                      <p class="text-uppercase text-muted mb-1">Anti-Pollution Face Wash</p>
+                      <h5 class="card-title">We have got a saviour to help you combat damage.</h5>
+                      <div class="price mb-3">
+                        <span class="discounted">₹179</span>
+
+                      </div>
+                      <a href="file:///C:/Users/shazz/Desktop/mernoct/html/bootstrap/product.html"
+                        class="btn btn-warning me-3">Buy Now</a>
+                      <a href="./cart.html" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                  <div class="card text-center" id="thirdcard">
+
+                    <img
+                      src="https://beardo.in/cdn/shop/files/Face_Shield_Kit_2160x2160_1cb8e117-6466-41dd-aca1-caa3bb34691c.jpg?v=1714414266&width=1946"
+                      alt="" width="100%" height="200">
+                    <div class="card-body">
+                      <p class="text-uppercase text-muted mb-1">Beardo De-Tan Facewash</p>
+                      <h5 class="card-title">Beardo De-Tan Facewash for Men helps you retain</h5>
+                      <div class="price mb-3">
+                        <span class="discounted">₹360</span>
+
+                      </div>
+                      <a href="file:///C:/Users/shazz/Desktop/mernoct/html/bootstrap/product.html"
+                        class="btn btn-warning me-3">Buy Now</a>
+                      <a href="./cart.html" class="btn btn-primary ">Add to Cart</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                  <div class="card text-center" id="thirdcard">
+                    <img
+                      src="https://www.themancompany.com/cdn/shop/files/Beard_and_face_Wash_Primary_1_5f67f2a0-767a-4d85-891d-ec360965d670_765x.jpg?v=1719822193"
+                      alt="" width="100%" height="200">
+                    <div class="card-body">
+                      <p class="text-uppercase text-muted mb-1">Beardo BEARD GROWTH </p>
+                      <h5 class="card-title">For a thicker, healthier, shinier beard</h5>
+                      <div class="price mb-3">
+                        <span class="discounted">₹749</span>
+
+                      </div>
+                      <a href="file:///C:/Users/shazz/Desktop/mernoct/html/bootstrap/product.html"
+                        class="btn btn-warning me-3">Buy Now</a>
+                      <a href="./cart.html" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+
+            <div class="carousel-item">
+              <div class="row">
+
+                <div class="col-12 col-md-6 col-lg-3">
+                  <div class="card text-center" id="thirdcard">
+                    <img src="https://www.themancompany.com/cdn/shop/products/1_28_765x.jpg?v=1627227712" alt=""
+                      width="100%" height="200">
+                    <div class="card-body">
+                      <p class="text-uppercase text-muted mb-1">Beardo BEARD GROWTH</p>
+                      <h5 class="card-title">Our Lightening Lip Scrub is a blend</h5>
+                      <div class="price mb-3">
+                        <span class="discounted">₹556</span>
+
+                      </div>
+                      <a href="file:///C:/Users/shazz/Desktop/mernoct/html/bootstrap/product.html"
+                        class="btn btn-warning me-3">Buy Now</a>
+                      <a href="./cart.html" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                  <div class="card text-center" id="thirdcard">
+                    <div class="badge discount-badge">10%
+                      OFF</div>
+                    <img
+                      src="https://www.themancompany.com/cdn/shop/files/2_8bb5f7f9-f0b0-4485-baa2-101279d2ed21_765x.jpg?v=1728454372"
+                      alt="" width="100%" height="200">
+                    <div class="card-body">
+                      <p class="text-uppercase text-muted mb-1">De-Tan Face Gel I Aloe Ve</p>
+                      <h5 class="card-title">
+                        Regular sun exposure</h5>
+                      <div class="price mb-3">
+                        <span class="discounted">₹654</span>
+
+                      </div>
+                      <a href="file:///C:/Users/shazz/Desktop/mernoct/html/bootstrap/product.html"
+                        class="btn btn-warning me-3">Buy Now</a>
+                      <a href="./cart.html" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                  </div>
+                </div>
+
+                <div class="col-12 col-md-6 col-lg-3">
+                  <div class="card text-center" id="thirdcard">
+                    <img
+                      src="https://www.chanel.com/images//t_one//w_0.51,h_0.51,c_crop/q_auto:good,f_autoplus,fl_lossy,dpr_1.1/w_840/boy-de-chanel-anti-shine-toning-lotion-3-38fl-oz--packshot-default-195020-9554884755486.jpg"
+                      alt="" width="100%" height="200">
+                    <div class="card-body">
+                      <p class="text-uppercase text-muted mb-1">BOY DE CHANEL ANTI-SHINE</p>
+                      <h5 class="card-title">Anti Shine Tonning Lotion Bottle</h5>
+                      <div class="price mb-3">
+                        <span class="discounted">5,999</span>
+
+                      </div>
+                      <a href="file:///C:/Users/shazz/Desktop/mernoct/html/bootstrap/product.html"
+                        class="btn btn-warning me-3">Buy Now</a>
+                      <a href="./cart.html" class="btn btn-primary">Add to Cart</a>
+                    </div>
+                  </div>
+                </div>
+                <div class="col-12 col-md-6 col-lg-3">
+                  <div class="card text-center" id="thirdcard">
+                    <img
+                      src="https://bellavitaorganic.com/cdn/shop/files/CEOMan500mlShowerGel-01.jpg?v=1692770100&width=1000"
+                      alt="" width="100%" height="200"">
+                                  <div class=" card-body">
+                    <p class="text-uppercase text-muted mb-1">Bella Vita Luxury Shower Gel</p>
+                    <h5 class="card-title">Bathe in the essence of your favourite perfume</h5>
+                    <div class="price mb-3">
+                      <span class="discounted">₹350</span>
+
+                    </div>
+                    <a href="file:///C:/Users/shazz/Desktop/mernoct/html/bootstrap/product.html"
+                      class="btn btn-warning me-3">Buy Now</a>
+                    <a href="./cart.html" class="btn btn-primary">Add to Cart</a>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#collectionCarousel" data-bs-slide="prev"
+          fdprocessedid="zzg9wx">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#collectionCarousel" data-bs-slide="next"
+          fdprocessedid="gkpwlm">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+    </div>
+
+    </div>
+    <div>
+
+      <div class="prose justify-items-center text-center mt-3">
+        <p class="h1 hyphenate">Men's Spiritual Jewellery</p>
+        <div class="Jewellery mt-3">
+          <p>Elevate your style and spirit with Mesmerize's high-quality men's spiritual jewelry—crafted to <br>
+            perfection,designed for the modern man seeking balance, protection, and timeless elegance.</p>
+        </div>
+
+
+
+        <div class="container-fluid">
+          <div class="row">
+            <div class="col-4">
+              <div class="card" style="width: 100%">
+                <a href="file:///C:/Users/shazz/Desktop/mernoct/html/bootstrap/product2.html"><img
+                    src="https://mesmerizeindia.com/cdn/shop/files/Yin_Yang_Sirius_Black_Bracelet_2_921bee69-5339-468d-9c5b-a8cbddf12447.jpg?v=1726906192&width=800"
+                    class="card-img-top" alt="..."></a>
+
+              </div>
+
+            </div>
+            <div class="col-4">
+              <div class="card" style="width: 100%">
+                <a href="file:///C:/Users/shazz/Desktop/mernoct/html/bootstrap/product2.html"> <img
+                    src="https://mesmerizeindia.com/cdn/shop/files/Offer_Image_Mens_Premium_14ca73a9-2857-455d-8854-a8d97d93dcc0.jpg?v=1733302552&width=800"
+                    class="card-img-top" alt="..."></a>
+
+              </div>
+
+            </div>
+            <div class="col-4">
+              <div class="card" style="width: 100%">
+                <a href="file:///C:/Users/shazz/Desktop/mernoct/html/bootstrap/product2.html"> <img
+                    src="https://mesmerizeindia.com/cdn/shop/files/PositivityHanumanChalisa9VerseGoldTagNecklace.jpg?v=1723903819&width=800"
+                    class="card-img-top" alt="..."></a>
+
+              </div>
+
+            </div>
+            <div class="col-4">
+              <div class="card mt-5" style="width: 100%">
+                <a href="file:///C:/Users/shazz/Desktop/mernoct/html/bootstrap/product2.html"><img
+                    src="https://rukminim2.flixcart.com/image/720/864/xif0q/ring/1/f/f/20-1-cf-black-ring-matty-size-no-20-ring-crazy-fashion-original-imah5h65agzpmpzb.jpeg?q=60&crop=false"
+                    class="card-img-top" alt="..."></a>
+
+              </div>
+
+            </div>
+            <div class="col-4">
+              <div class="card mt-5" style="width: 100%">
+                <a href="file:///C:/Users/shazz/Desktop/mernoct/html/bootstrap/product2.html"><img
+                    src="https://encrypted-tbn3.gstatic.com/shopping?q=tbn:ANd9GcTkvv1OidIOTY1q9qjpyU704HOVQAhUiY3wFdimOQ8QdMW-feRKsDPvR8EAnXh88Ho9GoSe7_bbQ9IBPiJmA3B9oL8GgeEscGj_-PhMp7E&usqp=CAE"
+                    class="card-img-top" alt="..."></a>
+
+              </div>
+
+            </div>
+            <div class="col-4">
+              <div class="card mt-5" style="width: 100%">
+                <a href="file:///C:/Users/shazz/Desktop/mernoct/html/bootstrap/product2.html"> <img
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTemKugbuPu35RTebkj2QF1-geJrkL9K1FXpWAiOlrl5C4WIuGhhM7IBlohZK1tMAkws2Q&usqp=CAU"
+                    class="card-img-top" alt="..."></a>
+
+              </div>
+
+            </div>
+
+          </div>
+        </div>
+      </div>
+
+  </body>
+
+  </html>
